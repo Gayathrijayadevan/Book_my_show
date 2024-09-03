@@ -1150,3 +1150,94 @@ h1 {
         text-align: center;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .search-bar {
+        margin: 10px 0;
+    }
+
+    .nav-bar ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-bar ul li {
+        margin-bottom: 10px;
+    }
+
+    .recommended-movies-section {
+        max-width: 100%;
+        padding: 10px 5px;
+    }
+
+    .movie-card {
+        flex: 0 0 150px;
+        margin-right: 10px;
+    }
+
+    .recommended-movies-title {
+        margin-left: 5%;
+    }
+
+    .container4, .container5, .container6, .container7, .container8, .container9, .container10, .container11 {
+        margin-left: 5%;
+    }
+
+    .container4 .banner img {
+        width: 50px;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header-container {
+        padding: 10px;
+    }
+
+    .search-bar input {
+        font-size: 12px;
+        padding: 6px;
+    }
+
+    .location select {
+        font-size: 12px;
+        padding: 6px;
+        margin-right: 10px;
+    }
+
+    .sign-in button {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+
+    .nav-bar ul li {
+        margin-right: 10px;
+    }
+
+    .movie-card {
+        flex: 0 0 100px;
+        margin-right: 8px;
+    }
+
+    .movie-info {
+        padding: 8px;
+    }
+
+    .container4 .banner p {
+        font-size: large;
+    }
+
+    .container4 .banner img {
+        width: 40px;
+        margin-left: 5px;
+    }
+
+    .container4 .head_er img {
+        max-height: 50px;
+    }
+}
